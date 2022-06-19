@@ -1,0 +1,30 @@
+// This is a comment.
+Technically, we don't need to comment stuff up here because we haven't defined the start yet!
+
+#kod // This is the start function.
+
+?- This is a
+very,
+very,
+VERY
+tall
+multi-line comment -?
+
+atom(print("Hello world!")) // atom is a function that can run samples and simpls of code.
+
+#ekod // This is the end function.
+
+We don't need comments down here either.
+
+This script is a simpl. There's three types of scripts in kod.
+
+Module - Completely independent script that cannot be called
+Sample - Simpls hard-coded into the compiler
+Simpl - Script that is controlled by a module or the compiler
+
+The compiler is a module. 
+So, how do you make a script a module? Answer is to put "#mod" above "#kod" to trigger module mode.
+
+Try it out! 
+
+By the way, the compiler always states the type of script that you put into it, so it should print "module" or "m".
